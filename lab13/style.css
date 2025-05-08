@@ -1,0 +1,124 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1A1A1A
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  column-gap: 300px;
+  align-items: center;
+  background-color: #2D2D2D;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-direction: row-reverse;
+}
+
+.section_header {
+  text-align: center;
+}
+
+.all_projects {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2D2D2D;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.my_skills {
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  background-color: #2D2D2D;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.info {
+  text-align: center;
+  background-color: #2D2D2D;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.git_link {
+  text-decoration: none;
+  color: rgb(128, 67, 226);
+  text-align: center;
+}
+
+.git_link:hover {
+  color: rgb(0, 0, 255)
+}
+
+.all_cases {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2D2D2D;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(128, 67, 226);
+}
+
+a:hover {
+  color: rgb(0, 0, 255)
+}
+
+p, h1, h2, h3, li {
+  color: white;
+}
+
+.project, .case, .hard_skills, .soft_skills {
+  background-color: #1b1b1b;
+  margin-right: 10px;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.container {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0; 
+  padding-bottom: 40px; 
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid #518eff;
+}
+
+
+
+
+
